@@ -1,0 +1,106 @@
+.space-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50p;
+}
+
+.section-title{
+    text-transform: uppercase;
+    font-weight:300;
+    font-size: 2.5em;
+    
+}
+
+.button{
+    background-color: #e2dfdf;
+    width: 200px;
+    border-color: #0e5a91;
+    padding: 10px;
+    border: 2px solid #70bef5;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.car2{
+    width: 300px;
+}
+
+.peregri{
+    font-size: 18px;
+    opacity: 0.4;
+}
+.preco{
+    font-weight: bolder;
+}
+
+
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+    align-content: center;
+    gap: 150px;
+    
+}
+
+
+.section{
+    background-color: #e2dfdf;
+    padding: 30px;
+    justify-content: center;
+    width: 74%;
+    margin-left: 220px;
+
+}
+.produtos-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.img-card{
+    width: 200px;
+}
+
+.btn-comprar{
+    background-color: orangered;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    border-color: orangered;
+    border-radius: 8px;
+}
+
+.tamanho{
+    font-size: 18px;
+}
+
+/* Secao mostrar mais produtos*/
+
+.secao-button-mostrar-mais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+button{
+    width: 40%;
+    height: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #4c007d;
+    border-radius: 8px;
+    font-family: montserrat;
+    font-size: 18px;
+}
+
+.paragrafo-pet{
+    font-size: 18px;
+    font-family: montserrat;
+}

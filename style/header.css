@@ -1,0 +1,120 @@
+.header{
+    background-color: #4c007d;
+    color: #fff;
+}
+
+.header-container{
+    display: flex;
+    padding: 30px;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: montserrat;
+}
+
+.logo{
+    width: 200px;
+}
+
+.input-container {
+    width: 600px;
+    
+}
+
+.input-pesquisa {
+    width: 100%;
+    padding: 10px 10px 10px 10px; /* Ajusta o padding para dar espaço para a imagem */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: url('/img/Icones_lupa.png') no-repeat right;
+    background-size: 30px 30px; /* Ajuste o tamanho da imagem conforme necessário */
+    color: #141414;
+    font-size: 16px;
+    background-color: #fff;
+    
+   
+}
+
+.input-pesquisa:focus {
+    border-color: black;
+    outline: none;
+}
+
+.loguin{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    text-align:left;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.perfil-parag{
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 10px;
+}
+
+.logo-perfil{
+    width: 30px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+.logar{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.carrinho{
+    display: flex;
+    align-items: center;
+}
+
+.carrinho-logo{
+    width: 30px;
+    cursor: pointer;
+}
+
+.container{
+    background-image: url(/img/banner.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height:70vh;
+}
+
+/* Media 768 para responsividade */
+
+@media screen and(max-width: 768px) {
+
+    .header{
+        width: 100%;
+    }
+
+    .logo{
+        width: 100px;
+    }
+    
+    .logar{
+        display: flex;
+    }
+    .loguin{
+        text-align: center;
+        font-size: 15px;
+        justify-content: center;
+    }
+
+  
+
+    
+    
+}

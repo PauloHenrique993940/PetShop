@@ -1,0 +1,43 @@
+.servicos-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.layout{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card-servicos{
+    display: flex;
+}
+
+.servicos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.icones{
+    width: 40px;
+}
+
+.secao-fotos{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    width: 100%;
+
+}
